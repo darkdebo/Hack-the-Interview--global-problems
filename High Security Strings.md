@@ -27,7 +27,8 @@ z - n+26
 
 ## pseudo algorithm:
 
-1.def string_password_weight(string,weight_a)
+```
+ 1.def string_password_weight(string,weight_a)
 	1.1 alphalist =list('abcdefghijklmnopqrstuvwxyz')
 	1.2 dic_weights = [weight_a+i for i in range(0,26)]
 	1.3 my_dic_word_map = dict(zip(alphalist,dic_weight))
@@ -39,7 +40,7 @@ z - n+26
 	
 	1.7 return sum_strength_pass
 
-
+```
 
 
 
